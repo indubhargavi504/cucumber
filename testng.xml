@@ -1,0 +1,7 @@
+<suite name = "test suite">
+   <test name = "test">
+        <classes>
+           <class name = "skeleton.runner"/>
+        </classes>
+   </test>
+</suite>
