@@ -11,7 +11,7 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
  
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features="src/test/resources/features/feature6.feature",
+@CucumberOptions(features="src/test/resources/Feature2",
                 glue="stepdefination",
                 //tags= {"~@search"},
                 plugin={"html:target/htmlreport",
