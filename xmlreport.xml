@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="350.669551">
+<testcase classname="Create a test fot purchase products - TestMe app" name="Purchase products in TestMe App" time="133.958308">
+<system-out><![CDATA[* user login in the TestMe app..............................................passed
+* user enters head in the search box........................................passed
+* user clicks on find details...............................................passed
+* user  clicks on add to cart, cart icon, check out, proceed to pay.........passed
+* user select bank and click on continue....................................passed
+* user enters username and password.........................................passed
+* user enters trans password................................................passed
+* user clicks on pay now....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="create test for registration - TestMe App" name="Registration test" time="56.207014">
+<system-out><![CDATA[* user should open the testme app in browser................................passed
+* user enters username as "alex8"...........................................passed
+* user enters firstname as "indu"...........................................passed
+* user enters lastname as "bhargavi"........................................passed
+* user enters password as "bhargavi010".....................................passed
+* user enters confirm password as "bhargavi010".............................passed
+* user selects gender as female.............................................passed
+* user enters mailid as "kk@gamil.com"......................................passed
+* user enters mobile number as "9876012345".................................passed
+* user enters dob as "10/23/1997"...........................................passed
+* user enters address as "asdfghjklmn"......................................passed
+* user enters selects security question.....................................passed
+* user enters answer as "skyblue"...........................................passed
+* user clicks on submit button..............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Create a test for Login - TestMe App" name="_2" time="91.710708">
+<system-out><![CDATA[* user navigate login of TestMe app.........................................passed
+* user enters username for login as "lalitha"...............................passed
+* user enters password for login as "password123"...........................passed
+* user click on login button................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Create a test for Login - TestMe App" name="_3" time="32.026819">
+<system-out><![CDATA[* user navigate login of TestMe app.........................................passed
+* user enters username for login as "indu23"................................passed
+* user enters password for login as "bhargavi010"...........................passed
+* user click on login button................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Moves to cart without adding to cart" name="The one where user moves to cart without adding any item in it" time="36.766702">
+<system-out><![CDATA[* Alex has registered to TestMe.............................................passed
+* Alex searches for particular product like headphones......................passed
+* Try to proceed to payment without adding any item in the cart.............passed
+* TestMe doesn't display the cart icon......................................passed
+]]></system-out>
+</testcase>
+</testsuite>
